@@ -4,10 +4,12 @@
   "private": true,
   "devDependencies": {
     "cypress": "^13.13.0",
+    "cypress-mochawesome-reporter": "^4.0.2",
     "cypress-plugin-api": "^2.11.1"
   },
   "scripts": {
-    "test": "cypress run",
-    "open": "cypress open"
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:report": "cypress run && npx mochawesome-merge cypress/reports/*.json > cypress/reports/report.json && npx mochawesome-report-generator cypress/reports/report.json -o cypress/reports/html"
   }
 }

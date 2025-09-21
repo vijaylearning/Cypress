@@ -1,0 +1,31 @@
+# Node modules
+/node_modules
+
+# Cypress cache
+/cypress/cache
+/cypress/videos
+/cypress/screenshots
+/cypress/reports
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE files
+.idea
+.vscode
+*.sublime-workspace
+*.sublime-project
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Cypress test result outputs (optional)
+mochawesome-report

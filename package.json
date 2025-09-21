@@ -1,0 +1,13 @@
+{
+  "name": "cypress-student-api-tests",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "cypress": "^13.13.0",
+    "cypress-plugin-api": "^2.11.1"
+  },
+  "scripts": {
+    "test": "cypress run",
+    "open": "cypress open"
+  }
+}

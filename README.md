@@ -49,7 +49,7 @@ If the book is returned to the Library within 10 days, *no fine* is charged.
 ## ✅ Sample Output
 
 
-bob need to pay 2 for book b1
+bob need to pay 2 for book b1\n
 fine amount to be paid: None
 bob need to pay 4 for book b3
 ace need to pay 7 for book b4

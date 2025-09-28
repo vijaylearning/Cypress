@@ -50,10 +50,10 @@ If the book is returned to the Library within 10 days, *no fine* is charged.
 
 
 bob need to pay 2 for book b1<br/>
-fine amount to be paid: None
-bob need to pay 4 for book b3
-ace need to pay 7 for book b4
-fine amount to be paid: None
+fine amount to be paid: None<br/>
+bob need to pay 4 for book b3<br/>
+ace need to pay 7 for book b4<br/>
+fine amount to be paid: None<br/>
 
 
 ---
